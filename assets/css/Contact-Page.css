@@ -1,11 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-
-html, body, nav {
-  font-family: 'Roboto Slab';
-  
-} 
-
-
 .topnav {
 	overflow: hidden;
 	background-color: rgba(0, 0, 0, 0.9);
@@ -69,3 +61,16 @@ html, body, nav {
 	}
 
 }
+
+  .h2 {
+    text-align: center;
+  }
+
+  body form, .h2, textarea {
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+  }
+
+  Body form {
+    background-color: rgba(1, 1, 1, 0.001)
+  }
