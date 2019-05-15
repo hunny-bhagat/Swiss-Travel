@@ -1,3 +1,10 @@
+
+html body {
+  background-image: url('/images/BG-Light.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .topnav {
 	overflow: hidden;
 	background-color: rgba(0, 0, 0, 0.9);
@@ -49,7 +56,8 @@
     float: none;
     display: block;
 		text-align: left;
-		padding: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 0.07px solid #444;
 		font-size: 22px;
 	}
 	
@@ -66,11 +74,14 @@
     text-align: center;
   }
 
-  body form, .h2, textarea {
+  body form, .h2,
+  textarea, input {
     font-family: 'Roboto Slab';
     font-weight: 600;
   }
 
-  Body form {
-    background-color: rgba(1, 1, 1, 0.001)
+  body form {
+    width: 60%;
+    min-width: 320px;
+    margin: 0 auto;
   }
