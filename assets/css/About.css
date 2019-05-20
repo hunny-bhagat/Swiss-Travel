@@ -1267,7 +1267,6 @@
 		}
 
 
-
 /* Header */
 
 	#header {
@@ -1297,7 +1296,7 @@
 		text-align: center;
 		position: relative;
 		cursor: default;
-		height: 100vh;
+		height: 45vh;
 	}
 
 		#header input, #header select, #header textarea {
@@ -1382,7 +1381,7 @@
 			#header.alt p {
 				text-transform: uppercase;
 				letter-spacing: 0.325rem;
-				font-weight: 600;
+				font-weight: 400;
 				font-size: 0.8em;
 				padding: 0 1.25em;
 			}

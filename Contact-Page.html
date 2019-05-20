@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/all.min.css">
   <link rel="stylesheet" href="assets/css/Contact-Page.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,7 +24,7 @@
     <li><a href="#"><i class="fa fa-fw fa-user"></i> Login</a></li>
     <li><a href="Contact-Page.html"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
 
-    <li><a href="#about"><i class="fas fa-info-circle"></i>About</a></li>
+    <li><a href="About.html"><i class="fas fa-info-circle"></i>About</a></li>
     <li>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i id="menuBtn" class="fa fa-bars"></i>
@@ -61,7 +62,7 @@
 <!-- The form stuff ends here -->
 
   <!-- Footer -->
-  <footer id="footer">
+  <footer id="footer" data-aos="zoom-in">
     <ul class="icons">
       <li><a href="#" class="icon fab fa-twitter"><span class="label">Twitter</span></a></li>
       <li><a href="#" class="icon fab fa-facebook"><span class="label">Facebook</span></a></li>
@@ -80,6 +81,10 @@
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/responsive-nav.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>

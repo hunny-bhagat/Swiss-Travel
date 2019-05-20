@@ -718,7 +718,7 @@
 				color: #666666;
 			}
 
-			.Map-font{
+			.destination {
 				font-size: 60px;
 			}
 
@@ -1271,6 +1271,15 @@
 				}
 		}
 
+		/* Slider-CSS */
+		.swiper-container {
+			width: 100%;
+			height: 100%;
+		}
+		.swiper-slide {
+			background-position: center;
+			background-size: cover;
+		}
 
 
 /* Header */
